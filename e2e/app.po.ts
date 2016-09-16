@@ -1,4 +1,6 @@
-export class DemoDirectoryPage {
+import { browser, element, by } from 'protractor/globals';
+
+export class DemoPage {
   navigateTo() {
     return browser.get('/');
   }

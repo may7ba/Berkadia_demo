@@ -1,10 +1,10 @@
-import { DemoDirectoryPage } from './app.po';
+import { DemoPage } from './app.po';
 
-describe('demo-directory App', function() {
-  let page: DemoDirectoryPage;
+describe('demo App', function() {
+  let page: DemoPage;
 
   beforeEach(() => {
-    page = new DemoDirectoryPage();
+    page = new DemoPage();
   });
 
   it('should display message saying app works', () => {
